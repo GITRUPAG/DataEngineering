@@ -1,0 +1,62 @@
+SQL Constraints & Keys
+
+Rules applied to columns
+
+Types - 
+Primary Key
+NOT NULL
+Unique
+default
+check
+foreign key 
+
+
+1- Primary key 
+
+uniquely identifies each record
+cannot be null
+cannot contain duplicate values
+
+2 - NOT NULL
+
+3- Unique - duplicates not allowed 
+
+4 - Default
+5 - AUTO INCREMENT
+
+keys - set of columns used to uniquely identify records and establish relationship btw tables
+
+Types of keys : 
+
+super key
+candidate key
+Primary key
+Alternate key
+Composite key
+Foreign key 
+
+super key - combination of columns 
+
+student id + email + phone
+
+studentid + email
+
+student id + phn
+
+email + phn
+
+candidate key - smallest possible of super key
+ 
+studentid + email + course id
+
+Primary key - studentid
+
+Alternate keys
+
+COmposite key - Made up of two or more primary keys
+
+Studentid + courseid
+
+Foreign key - DEpartment and student 
+
+ 
