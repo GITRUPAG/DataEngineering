@@ -56,7 +56,7 @@ employee = ("Ravi", 25, 5000)
 
 print(employee[0])
 
-# employee[1] = 50
+employee[1] = 50
 
 #set - unordered , No duplicates
 
