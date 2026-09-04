@@ -77,9 +77,10 @@ def calculate_new(a, b):
     diff = a - b
     return total, diff
 
-total, diff = calculate_new(10, 5)
+total, diff = calculate_new(10, 5), calculate_new(20,30)
 print(total)
 print(diff)
+
 
 def calculate_total(numbers):
     return sum(numbers)
@@ -94,3 +95,31 @@ def high_salary(employees):
     ]
 
 print(high_salary(employees))
+
+
+# def sum(a, b):
+#     return a + b
+
+# variable positional arguments
+# *args
+
+def add_sum(*args):
+    return sum(args)
+
+print(add_sum(10, 20, 30, 40)) # tuple
+
+def show_details(**details):
+    for key, value in details.items():
+        print(key, ":", value)
+
+    print(details)
+    print(type(details))
+
+show_details(name="Ravi", age = 25, salary=2500)
+
+# def square(x):
+#     return x * x
+# syntax lambda arguments : expression
+square = lambda x : x * x
+
+print(square(5))
