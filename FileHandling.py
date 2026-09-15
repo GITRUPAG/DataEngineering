@@ -50,3 +50,25 @@ with open("data.txt", "a") as file:
 with open("data.txt", "a") as file:
     for order in orders:
         file.write(f"{order['id']},{order['amount']}\n")
+
+with open("data.txt", "r+") as file:
+    data = file.read()
+    print(data)
+
+    file.write("New data\n")
+
+with open("data.txt", "w+") as file:
+    file.write("New data1\n")
+
+    data = file.read()
+    print(data)
+with open("data.txt", "a+") as file:
+    file.write("New data2\n")
+    file.seek(0)
+    data = file.read(5)
+    print(data)
+    print(file.tell())
+
+    # data1 = file.read()
+    # print(data1)
+

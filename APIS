@@ -1,0 +1,41 @@
+Frontend -> My name is RUPA -> server HTTP
+
+HTTPS -> sdfghjdfghjkerty -> Encrypt
+
+HTTP Method -
+GET -> get data
+POST -> create data
+PUT   -> update data
+PATCH  -> partially update data
+DELETE -> delete data
+
+REST - Representational State Transfer
+
+Client server arch
+client                     server
+React App ->   request -> backend
+
+stateless
+
+
+JSON - JavaScript Object Notation
+
+Its a format used to store and exchange structured data
+
+{
+"id":1
+"name":"rupa"
+}
+
+{
+ "order_id":101,
+ "customer":"Ravi
+ }
+
+{
+"name":"rupa",
+"age":22,
+"active":true,
+"address":null,
+"skills":["python", "sql"]
+}
