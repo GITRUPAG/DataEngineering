@@ -1,0 +1,46 @@
+OOP - Object- Oriented Programming
+
+Programming approach where we organize our program
+
+using
+classes
+objects
+Attributes
+Methods
+
+class - blueprint/template for creating objects
+
+Object - Instance of a class
+
+Attributes - data/properties belonging to an object
+
+__init__() - initializer method
+
+Its runs automatically when an object is created
+
+self - refers to the current object
+self.name - is the attribute belonging to the object
+
+Methods - is a function defined inside a class
+
+Instance variables - Variables that belong to individual objects
+
+Each object gets its own data
+
+ex - self.name, self.age
+
+Class variable - Shared by objects of that class
+
+Encapsulation - Wrapping data into a class
+
+Inheritance - allows one class to reuse functionality from another class
+
+PolyMorphism - same method name can behave differently depending on the object
+
+Add(2, 3)
+Add(2, 3, 4)
+Add(1, 2, 3, 5,6)
+
+Abstraction - Hiding Implementation and exposing the required interface
+
+
