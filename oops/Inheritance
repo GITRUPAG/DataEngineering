@@ -1,0 +1,17 @@
+Single Inheritance
+
+one parent -> one child
+
+A -> B
+
+Multilevel Inheritance
+
+A -> B -> C
+
+Multiple Inheritance
+
+C -> A, B Multiple Parents
+
+Hierarchical Inheritance
+
+One parent - > Multiple children
