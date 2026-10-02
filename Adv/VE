@@ -1,0 +1,17 @@
+python -m venv "Name"
+
+venv - module
+
+venv\Scripts\activate
+
+deactivate
+
+pip list
+
+pip show pandas
+
+pip install --upgrade requests
+
+pip uninstall requests
+
+pip install -r requirements.txt
