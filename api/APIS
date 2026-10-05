@@ -1,0 +1,55 @@
+REST APIS
+
+http://localhost:8080/Students/add
+
+ENDPOINTS -
+GET  /students
+POST  /Student/add
+
+HTTP Methods
+
+GET Read data
+POST create data
+put  update data
+PATCH - partial update
+DELETE delete data
+
+
+Status Code
+
+200 - Request was successful
+
+201 - Created (post)  new resource was successfully created
+
+204 - No content Request was successful , but there is no response body
+
+400 - Bad request
+
+401 - Unauthorised missing credentials
+
+403 - Forbidden
+
+404 - Not Found
+
+405 - endpoint exists you are using wrong HTTP method
+
+500 - Python error
+
+Stateless -
+Resource-based URLs
+HTTP Methods
+
+                       - LinkedIn - GitHub - Hackerrank
+PL - PYTHON
+DB - MYSQL
+- REST APIS, FLASK, HTTP METHODS
+- NUMPY,
+
+projects
+
+xxxxxxx - Github link
+
+
+
+
+
