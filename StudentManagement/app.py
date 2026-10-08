@@ -32,7 +32,26 @@ def get_student(id):
 @app.route("/students/add", methods=["POST"])
 def add_student():
 
-    data = request.get_json()
+    data = request.get_json(silent=True)  # if json is empty it returns None
+
+     # Rupa - weyrty - Rupa
+    # Rupa - 7415cvbgfb
+    # Rupa - 7415cvbgfb
+    # Rupa  - 5245iuyfgh
+    if data is None:
+        return jsonify({
+            "message:Invalid Json"
+        })
+    if "name" not in data:
+        return jsonify({
+            "message:Name is required"
+        })
+
+    if not isinstance(data["name"], str): # check whether value belongs to data type
+        return jsonify({
+            "message":"Name must be string"
+        })
+
 
     new_student = {
         "id": len(students)+1,

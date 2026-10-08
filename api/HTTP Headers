@@ -1,0 +1,10 @@
+- Additional Information sent along with an HTTP request or response
+
+Content-Type : Tells the server what type of data is being sent
+
+Authorization : Contains Authentication information
+
+Accept : tells the server what response format the client wants
+
+Request Headers :
+
