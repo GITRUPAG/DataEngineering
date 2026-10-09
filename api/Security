@@ -1,0 +1,41 @@
+Authentication & Authorization
+
+Authentication - who are you? verify user using username and password
+
+Authorization - what are you allowed to do? which resources a user can access
+
+JWT - JSON web token send information client to server
+Login -> call api -> to view
+
+Header.Payload.Signature
+
+cvbnmgfbnjsd7678.dcvbnmkuyd.edfghtr456yhg
+
+Header -> information about the token
+{
+"typ" : "JWT",
+"alg":"HS256"
+}
+
+payload -> information such as user identity and expity time
+{
+    "email":
+    "role":Student
+    "exp":44125426
+}
+
+Signature -> HS256 algo
+
+helps server to detect whether the token has been modified
+
+"eyJhbGciOiJFUzI1NiIsvtpZCI6Ijc5YmU5YjI5LWVkZGUtNDhhZi1hZmM2LTJiYzhlZDI5ZDVkMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lwanlwZXF5cnRjZnp0ZnlxY2x0LnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJiM2NjMmNkMS04YzgwLTQ5ODItYjYwYS1kZmRlZmVmZGQwYzciLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzkxNTI3MzA5LCJpYXQiOjE3OTE1MjM3MDksImVtYWlsIjoicnVwYWdjc2MxOEBnbWFpbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsIjoicnVwYWdjc2MxOEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJiM2NjMmNkMS04YzgwLTQ5ODItYjYwYS1kZmRlZmVmZGQwYzcifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc5MTQ3OTc0N31dLCJzZXNzaW9uX2lkIjoiZTc5ZmYzMzUtODVmYS00MTg2LWIyZGQtZDY3NWIzNzYzZTBkIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.emjNtG6coqT-0W9_gR1wBbsn96Iy1WZ894wWgnluzGt8hlSpuFvg1dhsya00f8FchA8_fowZL-6z9jrNgryRAA"
+
+    step 1 : Login  (username and password)
+    step 2 : verify credentials - server checks whether they are correct
+    STep 3 : Generate JWT server - return an access token
+    step 4 : Access protected api - client sends the token with each request
+    step 5 : Verify token and permissions - server accepts or rejects the request
+
+
+    Login - > dfghjklfdfghj852
+    get Student api token(dfghjklfdfghj852)
