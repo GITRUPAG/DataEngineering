@@ -1,7 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv("sales.csv",
-                 usecols=["order_id", "price"], nrows = 2)
+                 usecols=["order_id", "price"], nrows = 1)
 
 print(df)
 
